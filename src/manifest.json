@@ -1,0 +1,27 @@
+{
+  "name": "cn2tw4programmer",
+  "version": "0.1.4",
+  "description": "Transfer zh-CN computer science terms into zh-TW",
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.bundle.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "images/cn2zh-64.png"
+  },
+  "icons": {
+    "16": "images/cn2zh-16.png",
+    "32": "images/cn2zh-32.png",
+    "48": "images/cn2zh-48.png",
+    "64": "images/cn2zh-64.png",
+    "128": "images/cn2zh-128.png"
+  },
+  "manifest_version": 2
+}

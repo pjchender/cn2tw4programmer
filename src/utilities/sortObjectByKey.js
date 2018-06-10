@@ -1,10 +1,22 @@
 function sortedObjectByKey(terms) {
+  let counter = 0;
   let sortedTerms = {};
-  Object.keys(terms)
+  for (let category in terms) {
+    Object.keys(terms[category])
     .sort()
     .forEach(key => {
-      sortedTerms[key] = terms[key];
+      if (!sortedTerms[category]) {
+        sortedTerms[category] = {}
+      }
+      counter++
+      sortedTerms[category][key] = terms[category][key];
     });
-  return sortedTerms;
+  }
+
+  return {
+    sortedTerms,
+    counter
+  };
 }
+
 module.exports = sortedObjectByKey;

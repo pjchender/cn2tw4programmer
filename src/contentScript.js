@@ -1,12 +1,14 @@
-import zh_cn from './terms/zh-Hans';
-import zh_tw from './terms/zh-Hant';
+import zh_cn from './terms/zh_CN';
+import zh_tw from './terms/zh_TW';
 
 let body = document.body.innerHTML;
 let regex = new RegExp();
 
-for (let term in zh_cn) {
-  regex = new RegExp(`${zh_cn[term]}`, 'g');
-  body = body.replace(regex, zh_tw[term]);
+for (let category in zh_cn) {
+  for(let term in zh_cn[category] ) {
+    regex = new RegExp(`${zh_cn[category][term]}`, 'g');
+    body = body.replace(regex, `<u title="${term}">${zh_tw[category][term]}</u>`);
+  }
 }
 
 document.body.innerHTML = body;

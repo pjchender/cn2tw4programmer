@@ -2,6 +2,8 @@
 
 這個 Google Chrome 擴充套件**並不是**一個將簡體中文轉換成繁體中文的套件，而是將簡體中文內常用的 Computer Science 詞彙轉換成繁體中文的詞彙，你一定經常看簡體中文的「數組」卻不知道那就是繁體中文「陣列」，看到「對象」卻不知道是指「物件」，而這個套件就是幫你處理這樣的問題。
 
+被轉換過的文字下方將會出現底線，且滑鼠停滯在該文字上方時會出現英文原文 `change logs: 2018-06-10`。
+
 > [cn2tw4programmer](https://chrome.google.com/webstore/detail/emjpciklgncophlffcjipabmigmdkdmc) @ Google Chrome Extension Store
 
 ## 使用
@@ -14,8 +16,12 @@
 
 若有建議新增或修改的詞彙，歡迎提交 PR，字典檔在 [`./src/terms/`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms) 當中：
 
-## RoadMap
+## Change Logs
 
-* 2018-05-24: v0.1.3 - pack the app
-* 2018-05-19: v0.0.2 - bundle files with webpack
-* 2018-04-18: v0.0.1 - init the project
+* 2018-06-10: v0.1.5
+  * Provide new terms
+  * Parse "phrase" before "word"
+  * Underline the word be parsed, and add english of the term
+* 2018-05-24: v0.1.3 - Pack the app
+* 2018-05-19: v0.0.2 - Bundle files with webpack
+* 2018-04-18: v0.0.1 - Init the project

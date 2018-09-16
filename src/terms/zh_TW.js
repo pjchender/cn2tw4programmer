@@ -5,6 +5,7 @@ const zh_TW = {
   phrases: {
     'assembly language': '組合語言',
     'connection-oriented': '連結導向',
+    'constructor function': '建構式函式',
     'domain name': '網域名稱',
     'high level language': '高階語言',
     'low level language': '低階語言',
@@ -19,8 +20,10 @@ const zh_TW = {
     byte: '位元組',
     call: '呼叫',
     code: '程式碼',
+    debug: '偵錯',
     default: '預設值',
     export: '匯出',
+    gateway: '閘道器',
     import: '匯入',
     inline: '行內',
     internet: '網際網路',
@@ -33,10 +36,13 @@ const zh_TW = {
     process: '程序',
     programmer: '工程師',
     protocol: '協定',
+    recursion: '遞迴',
     register: '暫存器',
+    response: '回應',
     screen: '螢幕',
     server: '伺服器',
     stack: '堆疊',
+    thread: '執行緒',
     variable: '變數',
     window: '視窗'
   }

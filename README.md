@@ -16,8 +16,15 @@
 
 若有建議新增或修改的詞彙，歡迎提交 PR，字典檔在 [`./src/terms/`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms) 當中：
 
+## 使用新同文堂
+
+若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/NewTongWenTang-S2TTable.json](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json) 目錄下的新同文檔「簡轉繁對照表」匯入即可使用。
+
 ## Change Logs
 
+* 2018-09-16: v0.1.6
+  * Provide new terms
+  * Provide Simplified to Traditional Chinese table for 新同文堂
 * 2018-06-10: v0.1.5
   * Provide new terms
   * Parse "phrase" before "word"

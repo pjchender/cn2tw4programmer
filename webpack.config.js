@@ -7,6 +7,7 @@ module.exports = {
   mode: 'production',
   devtool: 'source-map',
   entry: {
+    test: './src/test/test.js',
     background: './src/background.js',
     contentScript: './src/contentScript.js'
   },

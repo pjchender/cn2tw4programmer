@@ -77,7 +77,10 @@ const zh_TW = {
     thread: '執行緒',
     uninstall: '解除安裝',
     variable: '變數',
-    window: '視窗'
+    window: '視窗',
+    message: '訊息',
+    computer: '電腦',
+    base: '進位',
   }
 };
 

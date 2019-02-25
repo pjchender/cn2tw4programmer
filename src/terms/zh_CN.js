@@ -77,7 +77,10 @@ const zh_CN = {
     thread: '線程',
     uninstall: '卸載',
     variable: '變量',
-    window: '窗口'
+    window: '窗口',
+    message: '信息',
+    computer: '計算機',
+    base: '進制',
   }
 };
 

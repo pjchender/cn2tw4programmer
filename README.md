@@ -10,11 +10,15 @@
 
 由於這個套件主要是將簡體中文的詞彙轉換成繁體中文的用法，**並不是將簡體中文轉成繁體中文**，因此在使用前請先透過 [新同文堂](https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg?hl=zh-TW) 或瀏覽器內建的 [Google 翻譯](https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=zh-Hant)，將文章內容轉換成繁體中文：
 
-![](https://i.imgur.com/l8dEk6i.gif)
+![alt](https://i.imgur.com/l8dEk6i.gif)
 
 ## 使用新同文堂
 
 若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/NewTongWenTang-S2TTable.json](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json) 目錄下的新同文檔「簡轉繁對照表」匯入即可使用。
+
+## 當前字典檔
+
+目前字典中已收錄下列[詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json)。
 
 ## 貢獻或勘誤
 

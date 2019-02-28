@@ -81,6 +81,9 @@ const zh_TW = {
     message: '訊息',
     computer: '電腦',
     base: '進位',
+    iterator: '疊代器',
+    component: '元件',
+    loop: '迴圈',
   }
 };
 

@@ -81,6 +81,9 @@ const zh_CN = {
     message: '信息',
     computer: '計算機',
     base: '進制',
+    iterator: '遍歷器',
+    component: '組件',
+    loop: '循環',
   }
 };
 

@@ -16,6 +16,12 @@
 
 若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/NewTongWenTang-S2TTable.json](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json) 目錄下的新同文檔「簡轉繁對照表」匯入即可使用。
 
+或者可以下載此專案後，執行：
+
+```bash
+$ node ./dist/buildNewTongWenTang.bundle.js
+```
+
 ## 當前字典檔
 
 目前字典中已收錄下列[詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json)。

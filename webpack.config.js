@@ -8,6 +8,7 @@ module.exports = {
   devtool: 'source-map',
   entry: {
     test: './src/utilities/test.js',
+    buildNewTongWenTang: './src/utilities/buildNewTongWenTang.js',
     background: './src/background.js',
     contentScript: './src/contentScript.js'
   },

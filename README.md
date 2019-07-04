@@ -19,6 +19,7 @@
 或者可以下載此專案後，執行：
 
 ```bash
+$ npm run build
 $ node ./dist/buildNewTongWenTang.bundle.js
 ```
 
@@ -39,6 +40,10 @@ $ node dist/test.bundle.js
 
 ## Change Logs
 
+* 2019-07-04: v0.2.0
+  * Provide new terms
+  * Fixed some known issues
+  * Provide utility to build 新同文堂 JSON file
 * 2018-09-16: v0.1.7
   * Provide new terms
   * Provide Simplified to Traditional Chinese table for 新同文堂

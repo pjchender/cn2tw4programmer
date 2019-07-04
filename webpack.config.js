@@ -7,8 +7,8 @@ module.exports = {
   mode: 'production',
   devtool: 'source-map',
   entry: {
-    test: './src/utilities/test.js',
-    buildNewTongWenTang: './src/utilities/buildNewTongWenTang.js',
+    test: './src/utils/test.js',
+    buildNewTongWenTang: './src/utils/buildNewTongWenTang.js',
     background: './src/background.js',
     contentScript: './src/contentScript.js'
   },

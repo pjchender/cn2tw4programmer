@@ -1,5 +1,5 @@
 // 簡中
-// const sortedObjectByKey = require('./../utilities/sortObjectByKey');
+// const sortedObjectByKey = require('./../utils/sortObjectByKey');
 
 const zh_CN = {
   phrases: {

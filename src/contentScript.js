@@ -9,7 +9,7 @@ for (let category in zh_cn) {
     regex = new RegExp(`${zh_cn[category][term]}`, 'g');
     body = body.replace(
       regex,
-      `<u title=&quot;${term}&quot;>${zh_tw[category][term]}</u>`
+      `<u title=&quot;${zh_cn[category][term]}&quot;>${zh_tw[category][term]}</u>`
     );
   }
 }

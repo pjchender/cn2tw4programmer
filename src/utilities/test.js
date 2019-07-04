@@ -8,8 +8,7 @@ console.log('====== before ======', textToParse)
 for (let category in zh_cn) {
   for(let term in zh_cn[category] ) {
     regex = new RegExp(`${zh_cn[category][term]}`, 'g');
-    textToParse = textToParse.replace(regex, `<u title="${term}(${zh_cn[category][term]})">${zh_tw[category][term]}</u>`);
-    console.log(textToParse);
+    textToParse = textToParse.replace(regex, `<u title=&quot;${term}(${zh_cn[category][term]})&quot;${zh_tw[category][term]}</u>`);
   }
 }
 

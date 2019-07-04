@@ -5,9 +5,12 @@ let body = document.body.innerHTML;
 let regex = new RegExp();
 
 for (let category in zh_cn) {
-  for(let term in zh_cn[category] ) {
+  for (let term in zh_cn[category]) {
     regex = new RegExp(`${zh_cn[category][term]}`, 'g');
-    body = body.replace(regex, `<u title="${term}">${zh_tw[category][term]}</u>`);
+    body = body.replace(
+      regex,
+      `<u title=&quot;${term}&quot;>${zh_tw[category][term]}</u>`
+    );
   }
 }
 

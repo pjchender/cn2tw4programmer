@@ -20,9 +20,16 @@
 
 目前字典中已收錄下列[詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json)。
 
-## 貢獻或勘誤
+## 貢獻或勘誤 Contribution
 
-若有建議新增或修改的詞彙，歡迎提交 PR，字典檔在 [`./src/terms/`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms) 當中：
+若有建議新增或修改的詞彙，歡迎提交 PR，字典檔在 [`./src/terms/`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms) 當中。
+
+## 測試 Test
+
+```bash
+$ npm run start
+$ node dist/test.bundle.js
+```
 
 ## Change Logs
 
@@ -36,3 +43,9 @@
 * 2018-05-24: v0.1.3 - Pack the app
 * 2018-05-19: v0.0.2 - Bundle files with webpack
 * 2018-04-18: v0.0.1 - Init the project
+
+## Contributors
+
+* [Ann](https://github.com/extend1994)
+* [Askie Lin](https://github.com/askiebaby)
+* [Su,Yen-Yun](https://github.com/YYSU)

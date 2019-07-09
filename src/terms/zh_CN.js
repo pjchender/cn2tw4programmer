@@ -44,6 +44,7 @@ const zh_CN = {
     create_2: '構建',
     comment: '註釋',
     computer: '計算機',
+    current: '當前',
     data: '數據',
     deactivated: '失活的',
     debug: '調試',
@@ -55,6 +56,7 @@ const zh_CN = {
     fallback: '後備',
     file: '文件',
     folder: '文件夾',
+    firmware: '固件',
     gateway: '網關',
     generate: '生成',
     homepage: '主頁',
@@ -122,6 +124,7 @@ const zh_CN = {
     uninstall: '卸載',
     user: '用戶',
     variable: '變量',
+    video: '視頻',
     window: '窗口',
   },
 };

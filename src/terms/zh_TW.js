@@ -44,6 +44,7 @@ const zh_TW = {
     create_2: '建立',
     comment: '註解',
     computer: '電腦',
+    current: '目前',
     data: '資料',
     deactivated: '停用的',
     debug: '除錯',
@@ -55,6 +56,7 @@ const zh_TW = {
     fallback: '備用',
     file: '檔案',
     folder: '資料夾',
+    firmware: '韌體',
     gateway: '閘道器',
     generate: '產生',
     homepage: '首頁',
@@ -122,6 +124,7 @@ const zh_TW = {
     uninstall: '解除安裝',
     user: '使用者',
     variable: '變數',
+    video: '影片',
     window: '視窗',
   },
 };

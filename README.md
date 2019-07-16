@@ -40,6 +40,8 @@ $ node dist/test.bundle.js
 
 ## Change Logs
 
+* 2019-07-16: v0.2.1
+  * Add new words
 * 2019-07-04: v0.2.0
   * Provide new terms
   * Fixed some known issues
@@ -59,4 +61,5 @@ $ node dist/test.bundle.js
 
 * [Ann](https://github.com/extend1994)
 * [Askie Lin](https://github.com/askiebaby)
+* [Cliff Su](https://github.com/stu01509)
 * [Su,Yen-Yun](https://github.com/YYSU)

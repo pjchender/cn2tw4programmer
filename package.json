@@ -1,6 +1,6 @@
 {
   "name": "cn2tw4programmer",
-  "version": "0.1.8",
+  "version": "0.2.1",
   "description": "An chrome extension help translating computer science terms from zh-Hans to zh-Hant.",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/PJCHENder/cn2tw4programmer#readme",
   "devDependencies": {
-    "clean-webpack-plugin": "^1.0.1",
-    "copy-webpack-plugin": "^5.0.0",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
   }
 }

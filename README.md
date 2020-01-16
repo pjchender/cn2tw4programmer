@@ -68,14 +68,12 @@ $ node dist/test.bundle.js
   <tr>
     <td align="center"><a href="https://www.cliffsu.ga"><img src="https://avatars1.githubusercontent.com/u/22230889?v=4" width="100px;" alt=""/><br /><sub><b>Cliff Su</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=stu01509" title="Code">💻</a></td>
     <td align="center"><a href="https://askiebaby.github.io/"><img src="https://avatars1.githubusercontent.com/u/19218822?v=4" width="100px;" alt=""/><br /><sub><b>林汶樺｜Askie Lin</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=askiebaby" title="Code">💻</a></td>
-    <td align="center"><a href="http://pjchender.blogspot.com"><img src="https://avatars1.githubusercontent.com/u/13399740?v=4" width="100px;" alt=""/><br /><sub><b>PJCHENder</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=pjchender" title="Code">💻</a> <a href="#maintenance-pjchender" title="Maintenance">🚧</a></td>
     <td align="center"><a href="http://yysu.github.io/About-me"><img src="https://avatars3.githubusercontent.com/u/12994810?v=4" width="100px;" alt=""/><br /><sub><b>Su,Yen-Yun</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=YYSU" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/extend1994"><img src="https://avatars2.githubusercontent.com/u/13430892?v=4" width="100px;" alt=""/><br /><sub><b>Ann</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=extend1994" title="Code">💻</a></td>
+   <td align="center"><a href="http://pjchender.blogspot.com"><img src="https://avatars1.githubusercontent.com/u/13399740?v=4" width="100px;" alt=""/><br /><sub><b>PJCHENder</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=pjchender" title="Code">💻</a> <a href="#maintenance-pjchender" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-* [Ann](https://github.com/extend1994)
-* [Su,Yen-Yun](https://github.com/YYSU)

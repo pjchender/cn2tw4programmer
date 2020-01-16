@@ -12,6 +12,15 @@
       "profile": "https://askiebaby.github.io/",
       "contributions": [
         "code"
+       ],
+     }, {
+      "login": "pjchender",
+      "name": "PJCHENder",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13399740?v=4",
+      "profile": "http://pjchender.blogspot.com",
+      "contributions": [
+        "code",
+        "maintenance"
       ]
     }
   ],

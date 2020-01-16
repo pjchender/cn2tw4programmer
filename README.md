@@ -69,6 +69,7 @@ $ node dist/test.bundle.js
 <table>
   <tr>
     <td align="center"><a href="http://pjchender.blogspot.com"><img src="https://avatars1.githubusercontent.com/u/13399740?v=4" width="100px;" alt=""/><br /><sub><b>PJCHENder</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=pjchender" title="Code">💻</a> <a href="#maintenance-pjchender" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://askiebaby.github.io/"><img src="https://avatars1.githubusercontent.com/u/19218822?v=4" width="100px;" alt=""/><br /><sub><b>林汶樺｜Askie Lin</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=askiebaby" title="Code">💻</a></td>
   </tr>
 </table>
 

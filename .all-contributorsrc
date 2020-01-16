@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "stu01509",
+      "name": "Cliff Su",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22230889?v=4",
+      "profile": "https://www.cliffsu.ga",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cn2tw4programmer",
+  "projectOwner": "pjchender",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

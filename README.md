@@ -61,13 +61,13 @@ $ node dist/test.bundle.js
 * 2018-04-18: v0.0.1 - Init the project
 
 ## Contributors
-
-* [Ann](https://github.com/extend1994)
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="http://pjchender.blogspot.com"><img src="https://avatars1.githubusercontent.com/u/13399740?v=4" width="100px;" alt=""/><br /><sub><b>PJCHENder</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=pjchender" title="Code">💻</a> <a href="#maintenance-pjchender" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://askiebaby.github.io/"><img src="https://avatars1.githubusercontent.com/u/19218822?v=4" width="100px;" alt=""/><br /><sub><b>林汶樺｜Askie Lin</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=askiebaby" title="Code">💻</a></td>
     <td align="center"><a href="https://www.cliffsu.ga"><img src="https://avatars1.githubusercontent.com/u/22230889?v=4" width="100px;" alt=""/><br /><sub><b>Cliff Su</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=stu01509" title="Code">💻</a></td>
   </tr>
 </table>
@@ -75,6 +75,5 @@ $ node dist/test.bundle.js
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-* [Askie Lin](https://github.com/askiebaby)
-* [Cliff Su](https://github.com/stu01509)
+* [Ann](https://github.com/extend1994)
 * [Su,Yen-Yun](https://github.com/YYSU)

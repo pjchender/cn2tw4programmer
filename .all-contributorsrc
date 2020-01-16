@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "askiebaby",
+      "name": "林汶樺｜Askie Lin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19218822?v=4",
+      "profile": "https://askiebaby.github.io/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cn2tw4programmer",
+  "projectOwner": "pjchender",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

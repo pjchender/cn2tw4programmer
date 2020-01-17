@@ -46,6 +46,7 @@ const zh_TW = {
     data: '資料',
     deactivated: '停用的',
     debug: '除錯',
+	declaration: '宣告',
     default: '預設',
     document: '文件',
     example: '範例',

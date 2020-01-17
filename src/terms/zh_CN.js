@@ -46,6 +46,7 @@ const zh_CN = {
     data: '數據',
     deactivated: '失活的',
     debug: '調試',
+    declaration: '聲明',
     default: '默認',
     document: '文檔',
     example: '示例',

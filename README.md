@@ -37,12 +37,14 @@ $ node ./dist/buildNewTongWenTang.bundle.js
 ## 測試 Test
 
 ```bash
-$ npm run start
+$ npm run build
 $ node dist/test.bundle.js
 ```
 
 ## Change Logs
 
+* 2020-01-26: v0.2.2
+  * Add new words (來源：[大陸台灣電腦術語對照表](http://bit.ly/2RrIy9B))
 * 2019-07-16: v0.2.1
   * Add new words
 * 2019-07-04: v0.2.0

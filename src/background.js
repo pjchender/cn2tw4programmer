@@ -1,5 +1,4 @@
 /* global chrome */
-const path = require('path');
 
 // When the extension is installed or upgraded ...
 chrome.runtime.onInstalled.addListener(function() {

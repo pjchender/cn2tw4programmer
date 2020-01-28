@@ -1,12 +1,13 @@
 {
   "name": "cn2tw4programmer",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "An chrome extension help translating computer science terms from zh-Hans to zh-Hant.",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack -p",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf dist && webpack -p",
+    "build:newTongWenTang": "node ./src/utils/buildNewTongWenTang",
+    "test": "node ./src/utils/sortObjectByKey && jest"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,16 @@
   },
   "homepage": "https://github.com/PJCHENder/cn2tw4programmer#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "jest": "^25.1.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }

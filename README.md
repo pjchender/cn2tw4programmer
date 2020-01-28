@@ -1,6 +1,9 @@
 # cn2tw4programmer
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 這個 Google Chrome 擴充套件**並不是**一個將簡體中文轉換成繁體中文的套件，而是將簡體中文內常用的 Computer Science 詞彙轉換成繁體中文的詞彙，你一定經常看簡體中文的「數組」卻不知道那就是繁體中文「陣列」，看到「對象」卻不知道是指「物件」，而這個套件就是幫你處理這樣的問題。
@@ -17,18 +20,19 @@
 
 ## 使用新同文堂
 
-若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/NewTongWenTang-S2TTable.json](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json) 目錄下的新同文檔「簡轉繁對照表」匯入即可使用。
+若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/newTongWenTang.json`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/newTongWenTang.json) 目錄下的 JSON 檔於新同文堂中的「簡轉繁對照表」匯入即可使用。
 
 或者可以下載此專案後，執行：
 
 ```bash
-$ npm run build
-$ node ./dist/buildNewTongWenTang.bundle.js
+$ npm run build:newTongWenTang
 ```
+
+即可在 `./src/terms/` 目錄下找到 `newTongWenTang.json` 的檔案。
 
 ## 當前字典檔
 
-目前字典中已收錄下列[詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/NewTongWenTang-S2TTable.json)。
+目前字典中已收錄下列[詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/newTongWenTang.json)。
 
 ## 貢獻或勘誤 Contribution
 
@@ -37,32 +41,36 @@ $ node ./dist/buildNewTongWenTang.bundle.js
 ## 測試 Test
 
 ```bash
-$ npm run build
-$ node dist/test.bundle.js
+$ npm test
 ```
 
 ## Change Logs
 
-* 2020-01-26: v0.2.2
-  * Add new words (來源：[大陸台灣電腦術語對照表](http://bit.ly/2RrIy9B))
-* 2019-07-16: v0.2.1
-  * Add new words
-* 2019-07-04: v0.2.0
-  * Provide new terms
-  * Fixed some known issues
-  * Provide utility to build 新同文堂 JSON file
-* 2018-09-16: v0.1.7
-  * Provide new terms
-  * Provide Simplified to Traditional Chinese table for 新同文堂
-* 2018-06-10: v0.1.5
-  * Provide new terms
-  * Parse "phrase" before "word"
-  * Underline the word be parsed, and add english of the term
-* 2018-05-24: v0.1.3 - Pack the app
-* 2018-05-19: v0.0.2 - Bundle files with webpack
-* 2018-04-18: v0.0.1 - Init the project
+- 2020-01-26: v0.3.0
+  - Add new words (來源：[大陸台灣電腦術語對照表](http://bit.ly/2RrIy9B))
+  - Add Jest for test
+  - Refactor file structure
+  - Change npm scrips
+  - Bug fixed with new Regex
+- 2019-07-16: v0.2.1
+  - Add new words
+- 2019-07-04: v0.2.0
+  - Provide new terms
+  - Fixed some known issues
+  - Provide utility to build 新同文堂 JSON file
+- 2018-09-16: v0.1.7
+  - Provide new terms
+  - Provide Simplified to Traditional Chinese table for 新同文堂
+- 2018-06-10: v0.1.5
+  - Provide new terms
+  - Parse "phrase" before "word"
+  - Underline the word be parsed, and add english of the term
+- 2018-05-24: v0.1.3 - Pack the app
+- 2018-05-19: v0.0.2 - Bundle files with webpack
+- 2018-04-18: v0.0.1 - Init the project
 
 ## Contributors
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -79,4 +87,5 @@ $ node dist/test.bundle.js
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->

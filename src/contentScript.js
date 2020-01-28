@@ -1,17 +1,9 @@
-import zh_cn from './terms/zh_CN';
-import zh_tw from './terms/zh_TW';
+const zh_cn = require('./terms/zh_CN');
+const zh_tw = require('./terms/zh_TW');
+const cn2tw = require('./utils/cn2tw');
 
 let body = document.body.innerHTML;
-let regex = new RegExp();
 
-for (let category in zh_cn) {
-  for (let term in zh_cn[category]) {
-    regex = new RegExp(`${zh_cn[category][term]}`, 'g');
-    body = body.replace(
-      regex,
-      `<u title=&quot;${zh_cn[category][term]}&quot;>${zh_tw[category][term]}</u>`
-    );
-  }
-}
+const newBody = cn2tw({ body, zh_cn, zh_tw });
 
-document.body.innerHTML = body;
+document.body.innerHTML = newBody;

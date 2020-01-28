@@ -7,14 +7,27 @@ module.exports = {
   mode: 'production',
   devtool: 'source-map',
   entry: {
-    test: './src/utils/test.js',
-    buildNewTongWenTang: './src/utils/buildNewTongWenTang.js',
     background: './src/background.js',
     contentScript: './src/contentScript.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-object-rest-spread'],
+          },
+        },
+      },
+    ],
   },
   plugins: [
     new CleanWebpackPlugin({

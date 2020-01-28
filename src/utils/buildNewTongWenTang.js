@@ -1,14 +1,35 @@
-import zh_CN from './../terms/zh_CN';
-import zh_TW from './../terms/zh_TW';
+const path = require('path');
+const fs = require('fs');
+const fsPromises = fs.promises;
+const zh_tw = require('./../terms/zh_TW.json');
+const zh_cn = require('./../terms/zh_CN.json');
 
-const termMapping = {};
+main();
 
-Object.entries(zh_CN.phrases).forEach(([key, term_cn]) => {
-  termMapping[term_cn] = zh_TW.phrases[key];
-})
+async function main() {
+  const termsAfterMapping = mapTermsForNewTongWenTang({ zh_cn, zh_tw });
 
-Object.entries(zh_CN.words).forEach(([key, term_cn]) => {
-  termMapping[term_cn] = zh_TW.words[key];
-})
+  await fsPromises.mkdir(path.resolve(__dirname, './../terms'), {
+    recursive: true,
+  });
 
-console.log(JSON.stringify(termMapping));
+  await fsPromises.writeFile(
+    path.resolve(__dirname, './../terms/newTongWenTang.json'),
+    JSON.stringify(termsAfterMapping, null, 2)
+  );
+}
+
+function mapTermsForNewTongWenTang({ zh_cn, zh_tw }) {
+  const termMapping = {};
+  Object.entries(zh_cn.phrases).forEach(([key, term_cn]) => {
+    termMapping[term_cn] = zh_tw.phrases[key];
+  });
+
+  Object.entries(zh_cn.words).forEach(([key, term_cn]) => {
+    termMapping[term_cn] = zh_tw.words[key];
+  });
+
+  return termMapping;
+}
+
+module.exports = mapTermsForNewTongWenTang;

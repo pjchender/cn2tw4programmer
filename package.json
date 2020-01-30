@@ -2,30 +2,33 @@
   "name": "cn2tw4programmer",
   "version": "0.3.0",
   "description": "An chrome extension help translating computer science terms from zh-Hans to zh-Hant.",
+  "author": "PJCHENder <pjchender@gmail.com> (https://pjchender.blogspot.com)",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "rm -rf dist && webpack -p",
     "build:newTongWenTang": "node ./src/utils/buildNewTongWenTang",
-    "test": "node ./src/utils/sortObjectByKey && jest"
+    "test": "node ./src/utils/sortObjectByKey && jest",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PJCHENder/cn2tw4programmer.git"
+    "url": "https://github.com/pjchender/cn2tw4programmer.git"
   },
   "keywords": [
     "chrome",
     "extension"
   ],
-  "author": "PJCHENder",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PJCHENder/cn2tw4programmer/issues"
+    "url": "https://github.com/pjchender/cn2tw4programmer/issues"
   },
-  "homepage": "https://github.com/PJCHENder/cn2tw4programmer#readme",
+  "homepage": "https://github.com/pjchender/cn2tw4programmer#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
@@ -34,6 +37,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.6.0",
     "jest": "^25.1.0",
+    "semantic-release": "^17.0.1",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }

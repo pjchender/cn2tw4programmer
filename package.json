@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
-    "build": "rm -rf dist && webpack -p",
+    "build": "rm -rf dist && webpack -p && zip -9 -r extension.zip dist/",
     "build:newTongWenTang": "node ./src/utils/buildNewTongWenTang",
     "test": "node ./src/utils/sortObjectByKey && jest",
     "semantic-release": "semantic-release"

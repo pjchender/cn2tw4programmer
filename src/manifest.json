@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "Transfer zh-CN computer science terms into zh-TW",
   "permissions": [
-    "https://*/*",
-    "http://*/*",
     "activeTab",
     "declarativeContent",
     "storage"

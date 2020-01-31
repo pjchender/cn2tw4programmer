@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.0...v1.0.1) (2020-01-31)
+
+
+### Bug Fixes
+
+* add extension.zip after CI ([7051b7c](https://github.com/pjchender/cn2tw4programmer/commit/7051b7c9d67778b6ebebcad218830dea2e099353))
+
 # 1.0.0 (2020-01-30)
 
 

@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.1...v1.0.2) (2020-02-01)
+
+
+### Bug Fixes
+
+* integrate with coveralls and add coveralls badge ([7d957cf](https://github.com/pjchender/cn2tw4programmer/commit/7d957cfafae17d8b7f4f1891656c6a552d0c225e))
+
 ## [1.0.1](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.0...v1.0.1) (2020-01-31)
 
 

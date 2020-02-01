@@ -1,6 +1,7 @@
 # cn2tw4programmer
 
 [![Build status](https://badgen.net/travis/pjchender/cn2tw4programmer)](https://travis-ci.com/pjchender/cn2tw4programmer)
+[![Coverage Status](https://coveralls.io/repos/github/pjchender/cn2tw4programmer/badge.svg?branch=master)](https://coveralls.io/github/pjchender/cn2tw4programmer?branch=master)
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 

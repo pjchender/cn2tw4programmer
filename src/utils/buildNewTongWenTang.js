@@ -4,10 +4,12 @@ const fsPromises = fs.promises;
 const zh_tw = require('./../terms/zh_TW.json');
 const zh_cn = require('./../terms/zh_CN.json');
 
-main();
+  main();
 
 async function main() {
   const termsAfterMapping = mapTermsForNewTongWenTang({ zh_cn, zh_tw });
+
+  if (process.env.NODE_ENV === 'test') return;
 
   await fsPromises.mkdir(path.resolve(__dirname, './../terms'), {
     recursive: true,

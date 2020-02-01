@@ -72,4 +72,7 @@ dist
 assets
 *.crx
 *.pem
+extension.zip
 
+# credentials
+.coveralls.yml

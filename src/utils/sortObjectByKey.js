@@ -13,6 +13,8 @@ async function main() {
   const zhCNTerms = sortedObjectByKey(zh_cn);
   const zhTWTerms = sortedObjectByKey(zh_tw);
 
+  if (process.env.NODE_ENV === 'test') return;
+
   await fsPromises.mkdir(path.resolve(__dirname, './../terms'), {
     recursive: true,
   });

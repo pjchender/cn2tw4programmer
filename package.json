@@ -26,21 +26,21 @@
   },
   "homepage": "https://github.com/pjchender/cn2tw4programmer#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "@semantic-release/changelog": "^5.0.0",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^25.1.0",
-    "babel-loader": "^8.0.6",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.2.6",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
-    "coveralls": "^3.0.9",
+    "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
-    "eslint-plugin-jest": "^23.6.0",
-    "jest": "^25.1.0",
-    "semantic-release": "^17.0.2",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.2.7",
+    "semantic-release": "^17.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }

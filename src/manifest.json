@@ -1,6 +1,6 @@
 {
   "name": "cn2tw4programmer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transfer zh-CN computer science terms into zh-TW",
   "permissions": [
     "activeTab",

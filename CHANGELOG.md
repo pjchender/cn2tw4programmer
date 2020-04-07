@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.2...v1.0.3) (2020-04-07)
+
+
+### Bug Fixes
+
+* extension upgrade ([ca9bfe5](https://github.com/pjchender/cn2tw4programmer/commit/ca9bfe5aca9d6ec42a2647561a95afebd0cc8ac1))
+
 ## [1.0.2](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.1...v1.0.2) (2020-02-01)
 
 

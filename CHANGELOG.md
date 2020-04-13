@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.3...v1.0.4) (2020-04-13)
+
+
+### Bug Fixes
+
+* remove permissions of storage ([ae36be3](https://github.com/pjchender/cn2tw4programmer/commit/ae36be33e8b57de2eeaa7105c8df08e306f057dd))
+
 ## [1.0.3](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.2...v1.0.3) (2020-04-07)
 
 

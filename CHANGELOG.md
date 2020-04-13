@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.4...v1.0.5) (2020-04-13)
+
+
+### Bug Fixes
+
+* remove permissions of declarative content ([4e9338d](https://github.com/pjchender/cn2tw4programmer/commit/4e9338d534f36037b93eb8d95e3366e1069d4e34))
+
 ## [1.0.4](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.3...v1.0.4) (2020-04-13)
 
 

@@ -4,8 +4,7 @@
   "description": "Transfer zh-CN computer science terms into zh-TW",
   "permissions": [
     "activeTab",
-    "declarativeContent",
-    "storage"
+    "declarativeContent"
   ],
   "background": {
     "scripts": ["background.bundle.js"],

@@ -22,6 +22,6 @@ chrome.runtime.onInstalled.addListener(function() {
   });
 });
 
-chrome.pageAction.onClicked.addListener(function(tab) {
+chrome.pageAction.onClicked.addListener(function() {
   chrome.tabs.executeScript({ file: 'contentScript.bundle.js' });
 });

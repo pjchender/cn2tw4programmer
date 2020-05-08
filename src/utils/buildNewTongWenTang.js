@@ -16,7 +16,7 @@ async function main() {
   });
 
   await fsPromises.writeFile(
-    path.resolve(__dirname, './../terms/newTongWenTang.json'),
+    path.resolve(__dirname, './../terms/_newTongWenTang.json'),
     JSON.stringify(termsAfterMapping, null, 2)
   );
 }

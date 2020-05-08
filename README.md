@@ -4,10 +4,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/pjchender/cn2tw4programmer/badge.svg?branch=master)](https://coveralls.io/github/pjchender/cn2tw4programmer?branch=master)
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
-
 這個 Google Chrome 擴充套件**並不是**一個將簡體中文轉換成繁體中文的套件，而是將簡體中文內常用的 Computer Science 詞彙轉換成繁體中文的詞彙，你一定經常看簡體中文的「數組」卻不知道那就是繁體中文「陣列」，看到「對象」卻不知道是指「物件」，而這個套件就是幫你處理這樣的問題。
 
-被轉換過的文字下方將會出現底線，且滑鼠停滯在該文字上方時會出現英文原文 `change logs: 2018-06-10`。
+被轉換過的文字下方將會出現底線，且滑鼠停滯在該文字上方時會出現英文原文，目前字典中已收錄下列[單字與詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/_newTongWenTang.json)。
 
 > [cn2tw4programmer](https://chrome.google.com/webstore/detail/emjpciklgncophlffcjipabmigmdkdmc) @ Google Chrome Extension Store
 
@@ -19,7 +18,7 @@
 
 ## 使用新同文堂
 
-若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/newTongWenTang.json`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/newTongWenTang.json) 目錄下的 JSON 檔於新同文堂中的「簡轉繁對照表」匯入即可使用。
+若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/_newTongWenTang.json`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/_newTongWenTang.json) 目錄下的 JSON 檔於新同文堂中的「簡轉繁對照表」匯入即可使用。
 
 或者可以下載此專案後，執行：
 
@@ -27,15 +26,39 @@
 $ npm run build:newTongWenTang
 ```
 
-即可在 `./src/terms/` 目錄下找到 `newTongWenTang.json` 的檔案。
-
-## 當前字典檔
-
-目前字典中已收錄下列[詞彙](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/newTongWenTang.json)。
+即可在 `./src/terms/` 目錄下找到 `_newTongWenTang.json` 的檔案。
 
 ## 貢獻或勘誤 Contribution
 
-若有建議新增或修改的詞彙，歡迎提交 PR，字典檔在 [`./src/terms/`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms) 當中。
+若有建議新增或修改的詞彙，歡迎提交 Pull Request。
+
+字典檔存在 [`./src/terms/`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms) 中，只需修改該資料夾中的 `zh_CN.json` 和 `zh_TW.json` 檔即可，**不需要**修改 `_newTongWenTang.json`。
+
+舉例來說，想要新增「陣列」與「數組」的關係，則需要 `zh_TW.json` 中新增：
+
+```js
+// zh_TW.json
+{
+  "words": {
+    "array": "陣列"
+  }
+}
+```
+
+在 `zh_CN.json` 中新增對應的：
+
+```js
+// zh_CN.json
+{
+  "words": {
+    "array": "數組"
+  }
+}
+```
+
+其中，該物件的屬性名稱 `array` 是用來對應繁體和簡體中文用的 `key`，不可重複。
+
+> 若你想添加的是詞彙（phrases）而非單字（words），例如 "assembly language"，則需要放在 `phrases` 屬性內。
 
 ## 測試 Test
 
@@ -87,4 +110,5 @@ $ npm test
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->

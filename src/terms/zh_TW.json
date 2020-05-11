@@ -131,6 +131,12 @@
     "user": "使用者",
     "variable": "變數",
     "video": "影片",
-    "window": "視窗"
+    "window": "視窗",
+    "parameter": "參數",
+    "interpreter": "直譯器",
+    "algorithm": "演算法",
+    "string": "字串",
+    "store": "儲存",
+    "operator": "運算子"
   }
 }

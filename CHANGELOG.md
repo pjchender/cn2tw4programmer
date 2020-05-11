@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.6...v1.0.7) (2020-05-11)
+
+
+### Bug Fixes
+
+* minor patch, update packages, and README ([#23](https://github.com/pjchender/cn2tw4programmer/issues/23)) ([c0a5883](https://github.com/pjchender/cn2tw4programmer/commit/c0a58833341f950ce1a99f46f9937595f6e06116))
+
 ## [1.0.6](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.5...v1.0.6) (2020-05-11)
 
 

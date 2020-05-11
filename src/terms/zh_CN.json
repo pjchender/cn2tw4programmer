@@ -131,6 +131,12 @@
     "user": "用戶",
     "variable": "變量",
     "video": "視頻",
-    "window": "窗口"
+    "window": "窗口",
+    "parameter": "形參",
+    "interpreter": "解釋器",
+    "algorithm": "算法",
+    "string": "字串符",
+    "store": "存儲",
+    "operator": "操作符"
   }
 }

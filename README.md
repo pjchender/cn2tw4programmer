@@ -106,9 +106,11 @@ $ npm test
     <td align="center"><a href="https://github.com/EasonLin0716"><img src="https://avatars1.githubusercontent.com/u/48944243?v=4" width="100px;" alt=""/><br /><sub><b>Eason Lin</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=EasonLin0716" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/leannechen"><img src="https://avatars3.githubusercontent.com/u/35912430?v=4" width="100px;" alt=""/><br /><sub><b>Leanne Chen</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=leannechen" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://shawnlin0201.github.io/"><img src="https://avatars0.githubusercontent.com/u/45999699?v=4" width="100px;" alt=""/><br /><sub><b>ShawnL</b></sub></a><br /><a href="https://github.com/pjchender/cn2tw4programmer/commits?author=shawnlin0201" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->

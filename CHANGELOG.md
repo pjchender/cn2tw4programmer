@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.5...v1.0.6) (2020-05-11)
+
+
+### Bug Fixes
+
+* add test suite to improve test coverage ([#22](https://github.com/pjchender/cn2tw4programmer/issues/22)) ([c484f76](https://github.com/pjchender/cn2tw4programmer/commit/c484f7664e806bd8583d0032077ede3e2191265d))
+
 ## [1.0.5](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.4...v1.0.5) (2020-04-13)
 
 

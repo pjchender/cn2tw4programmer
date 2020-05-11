@@ -54,3 +54,28 @@
 ### BREAKING CHANGES
 
 * add semantic-release, integrate with Travis CI
+
+# Before v1.0.0
+
+- 2020-01-26: v0.3.0
+  - Add new words (來源：[大陸台灣電腦術語對照表](http://bit.ly/2RrIy9B))
+  - Add Jest for test
+  - Refactor file structure
+  - Change npm scrips
+  - Bug fixed with new Regex
+- 2019-07-16: v0.2.1
+  - Add new words
+- 2019-07-04: v0.2.0
+  - Provide new terms
+  - Fixed some known issues
+  - Provide utility to build 新同文堂 JSON file
+- 2018-09-16: v0.1.7
+  - Provide new terms
+  - Provide Simplified to Traditional Chinese table for 新同文堂
+- 2018-06-10: v0.1.5
+  - Provide new terms
+  - Parse "phrase" before "word"
+  - Underline the word be parsed, and add english of the term
+- 2018-05-24: v0.1.3 - Pack the app
+- 2018-05-19: v0.0.2 - Bundle files with webpack
+- 2018-04-18: v0.0.1 - Init the project

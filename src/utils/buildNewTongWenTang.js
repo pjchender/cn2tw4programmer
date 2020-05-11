@@ -9,8 +9,6 @@ const zh_cn = require('./../terms/zh_CN.json');
 async function main() {
   const termsAfterMapping = mapTermsForNewTongWenTang({ zh_cn, zh_tw });
 
-  if (process.env.NODE_ENV === 'test') return;
-
   await fsPromises.mkdir(path.resolve(__dirname, './../terms'), {
     recursive: true,
   });
@@ -34,4 +32,7 @@ function mapTermsForNewTongWenTang({ zh_cn, zh_tw }) {
   return termMapping;
 }
 
-module.exports = mapTermsForNewTongWenTang;
+module.exports = {
+  main,
+  mapTermsForNewTongWenTang
+};

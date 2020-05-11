@@ -1,4 +1,7 @@
-const sortedObjectByKey = require('./../utils/sortObjectByKey');
+const path = require('path');
+const fs = require('fs');
+const fsPromises = fs.promises;
+const { main, sortedObjectByKey } = require('./../utils/sortObjectByKey');
 
 // 排序前
 const termsBeforeSorted = {
@@ -50,5 +53,17 @@ describe('test utils of sortObjectByKey', () => {
 
   it('has same keys and order after sortedObjectByKey', () => {
     expect(keysAfterSorted).toEqual(keysAfterSortedShouldBe);
+  });
+
+  it('expect file be generated', async () => {
+    await main();
+    const zhCNFilePath = path.resolve(__dirname, './../terms/zh_CN.json');
+    const zhTWFilePath = path.resolve(__dirname, './../terms/zh_TW.json');
+
+    const zhCNFile = await fsPromises.stat(zhCNFilePath);
+    expect(zhCNFile).toEqual(expect.anything());
+
+    const zhTWFile = await fsPromises.stat(zhTWFilePath);
+    expect(zhTWFile).toEqual(expect.anything());
   });
 });

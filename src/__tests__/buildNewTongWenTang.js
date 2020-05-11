@@ -1,4 +1,10 @@
-const mapTermsForNewTongWenTang = require('./../utils/buildNewTongWenTang');
+const path = require('path');
+const fs = require('fs');
+const fsPromises = fs.promises;
+const {
+  main,
+  mapTermsForNewTongWenTang,
+} = require('./../utils/buildNewTongWenTang');
 
 const zh_cn_mock = {
   phrases: {
@@ -46,5 +52,13 @@ describe('test utils of buildNewTongWenTang', () => {
     });
 
     expect(termsAfterMapping).toEqual(termsAfterMappingShouldBe);
+  });
+
+  it('expect file be generated', async () => {
+    await main();
+    const filePath = path.resolve(__dirname, './../terms/_newTongWenTang.json');
+
+    const stats = await fsPromises.stat(filePath);
+    expect(stats).toEqual(expect.anything());
   });
 });

@@ -20,6 +20,7 @@
   "words": {
     "activated": "啟用的",
     "adapter": "配接器",
+    "algorithm": "演算法",
     "animation": "動畫",
     "array": "陣列",
     "asynchronous": "非同步",
@@ -69,6 +70,7 @@
     "interface": "介面",
     "interface_2": "介面",
     "internet": "網際網路",
+    "interpreter": "直譯器",
     "iterator": "疊代器",
     "lan": "區域網路",
     "link": "連結",
@@ -89,8 +91,10 @@
     "object": "物件",
     "object_2": "物件",
     "online": "線上",
+    "operator": "運算子",
     "os": "作業系統",
     "packet": "封包",
+    "parameter": "參數",
     "port": "連接埠",
     "post": "文章",
     "printer": "印表機",
@@ -121,6 +125,8 @@
     "setting_2": "設定",
     "software": "軟體",
     "stack": "堆疊",
+    "store": "儲存",
+    "string": "字串",
     "submit": "送出",
     "template": "樣板",
     "text": "文字",
@@ -131,12 +137,6 @@
     "user": "使用者",
     "variable": "變數",
     "video": "影片",
-    "window": "視窗",
-    "parameter": "參數",
-    "interpreter": "直譯器",
-    "algorithm": "演算法",
-    "string": "字串",
-    "store": "儲存",
-    "operator": "運算子"
+    "window": "視窗"
   }
 }

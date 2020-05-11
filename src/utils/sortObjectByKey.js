@@ -13,8 +13,6 @@ async function main() {
   const zhCNTerms = sortedObjectByKey(zh_cn);
   const zhTWTerms = sortedObjectByKey(zh_tw);
 
-  if (process.env.NODE_ENV === 'test') return;
-
   await fsPromises.mkdir(path.resolve(__dirname, './../terms'), {
     recursive: true,
   });
@@ -27,7 +25,7 @@ function sortedObjectByKey(terms) {
   for (let category in terms) {
     Object.keys(terms[category])
       .sort()
-      .forEach(key => {
+      .forEach((key) => {
         if (!sortedTerms[category]) {
           sortedTerms[category] = {};
         }
@@ -40,4 +38,7 @@ function sortedObjectByKey(terms) {
   };
 }
 
-module.exports = sortedObjectByKey;
+module.exports = {
+  main,
+  sortedObjectByKey,
+};

@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.7...v1.0.8) (2020-08-11)
+
+
+### Bug Fixes
+
+* update dependencies ([8da4eb3](https://github.com/pjchender/cn2tw4programmer/commit/8da4eb33fb764d3f857fdd40a5d4376e728fdd17))
+
 ## [1.0.7](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.6...v1.0.7) (2020-05-11)
 
 

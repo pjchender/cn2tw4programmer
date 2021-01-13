@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.9...v1.0.10) (2021-01-13)
+
+
+### Bug Fixes
+
+* update version in manifest ([703def6](https://github.com/pjchender/cn2tw4programmer/commit/703def69981590a3130627cac8d9c4e923097f71))
+
 ## [1.0.9](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.8...v1.0.9) (2021-01-13)
 
 

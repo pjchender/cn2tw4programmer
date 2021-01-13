@@ -33,16 +33,18 @@ module.exports = {
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
     }),
-    new CopyWebpackPlugin([
-      {
-        from: './src/images',
-        to: './images',
-      },
-      {
-        from: './src/manifest.json',
-        to: './',
-      },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './src/images',
+          to: './images',
+        },
+        {
+          from: './src/manifest.json',
+          to: './',
+        },
+      ],
+    }),
     new webpack.optimize.SplitChunksPlugin(),
   ],
 };

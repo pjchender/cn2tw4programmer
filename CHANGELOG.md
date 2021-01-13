@@ -1,3 +1,12 @@
+## [1.0.9](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.8...v1.0.9) (2021-01-13)
+
+
+### Bug Fixes
+
+* add new words ([fade3bf](https://github.com/pjchender/cn2tw4programmer/commit/fade3bfa3b4128970f235232446a1c54b95d56c7))
+* update packages with vulnerability ([0323bde](https://github.com/pjchender/cn2tw4programmer/commit/0323bde9fc0cf91970ac3d44403bd9c5a9eb0240))
+* upgrade webpack to v5 ([4ddcd65](https://github.com/pjchender/cn2tw4programmer/commit/4ddcd656564a573c716b47b35f288816f3f6467e))
+
 ## [1.0.8](https://github.com/pjchender/cn2tw4programmer/compare/v1.0.7...v1.0.8) (2020-08-11)
 
 

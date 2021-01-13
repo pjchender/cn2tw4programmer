@@ -92,4 +92,9 @@ $ npm test
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## 其他參考資料來源
+
+- [附錄一：海峽兩岸用語對照表](http://www.hintoninfo.com.tw/Upload/mag/words.pdf)

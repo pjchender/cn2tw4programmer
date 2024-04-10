@@ -16,7 +16,7 @@
 
 ![alt](https://i.imgur.com/l8dEk6i.gif)
 
-## 使用新同文堂
+## ~使用新同文堂~（目前無法使用，見 [#45](https://github.com/pjchender/cn2tw4programmer/issues/45)）
 
 若原本就有在使用[新同文堂](https://github.com/tongwentang)的使用者，可以不用額外下載此套件，直接將位於 [`./src/terms/_newTongWenTang.json`](https://github.com/PJCHENder/cn2tw4programmer/tree/master/src/terms/_newTongWenTang.json) 目錄下的 JSON 檔於新同文堂中的「簡轉繁對照表」匯入即可使用。
 
